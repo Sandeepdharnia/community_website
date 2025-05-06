@@ -124,7 +124,6 @@ form button:hover {
 }
 
 .news-article {
-  width: 100%;
   padding: 20px;
   border-radius: 6px;
   border: 2px solid var(--secondary-color);
@@ -146,7 +145,7 @@ form button:hover {
 }
 
 #articles {
-  border: 2px solid var(--main-color);
+  
 }
 
 #articles img {
@@ -154,7 +153,19 @@ form button:hover {
 }
 
 #articles ul {
+  padding: 20px 0;
+  list-style: none;
+}
+
+#articles li {
+  border: 2px solid var(--main-color);
+  border-radius: 6px;
   padding: 20px;
+  margin-bottom: 20px;
+}
+
+#articles li:hover {
+  background-color: rgba(255, 149, 23, 0.05);
 }
 
 footer {
