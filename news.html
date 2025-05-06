@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Concert+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="./js/main.js"></script>
 </head>
 <body>
   <header>
@@ -25,7 +26,7 @@
     </section>
     <section class="news-articles">
       <h2>Submit Your Article</h2>
-      <form onsubmit="alert('Thank you for your contribution!'); return false;">
+      <form>
         <label for="name">Your Name</label>
         <input id="name" type="text" name="name" placeholder="Your Name" required />
 
@@ -37,6 +38,9 @@
 
         <button type="submit">Submit</button>
       </form>
+    </section>
+    <section id="articles-container">
+
     </section>
   </main>
 
