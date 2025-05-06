@@ -59,6 +59,9 @@ header a:hover {
 }
 
 main {
+  height: calc(100vh - 216px);
+  display: flex;
+  flex-direction: column;
   padding: 20px 80px;
 }
 
@@ -68,3 +71,27 @@ h1 {
   font-style: normal;
   text-align: center;
 }
+
+h2 {
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section {
+  margin: 20px 0;
+}
+
+footer {
+  padding: 10px 80px;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* let liTag = document.createElement(“li”);
+  let h2Tag = document.createElement(“h2");// title
+  let strongTag = document.createElement(“strong”);//author
+  let h3Tag = document.createElement(“h3"); // content
+  let pTag = document.createElement(“p”);
+  let imgTag = document.createElement(“img”) */
