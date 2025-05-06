@@ -1,0 +1,70 @@
+:root {
+  --main-color: #FF9517;
+  --secondary-color: #f0c5de;
+  --main-background:#fffdff;
+  --secondary-background: #2b2b2b;
+}
+
+/* .concert-one-regular {
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alexandria {
+  font-family: "Alexandria", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+} */
+
+html, body, ul, li, h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--main-background);
+  font-family: "Alexandria", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 2px 80px;
+}
+
+header img {
+ height: 100px;
+ width: auto;
+}
+
+header a {
+  display: inline-block;
+  font-size: 22px;
+  color:var(--secondary-background);
+  text-decoration: none;
+  margin: 4px 40px;
+}
+
+header a.active {
+  color: var(--main-color);
+}
+
+header a:hover {
+  color: var(--main-color);
+}
+
+main {
+  padding: 20px 80px;
+}
+
+h1 {
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
