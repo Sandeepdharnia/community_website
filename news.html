@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <title>Local News</title>
   <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="./js/main.js"></script>
 </head>
 <body>
   <header>
@@ -18,7 +19,7 @@
   <main>
     <section class="news-articles">
       <h2>Submit Your Article</h2>
-      <form onsubmit="alert('Thank you for your contribution!'); return false;">
+      <form>
         <label for="name">Your Name</label>
         <input id="name" type="text" name="name" placeholder="Your Name" required />
 
@@ -30,6 +31,9 @@
 
         <button type="submit">Submit</button>
       </form>
+    </section>
+    <section id="articles-container">
+
     </section>
   </main>
 
