@@ -3,6 +3,8 @@ import { renderArticles } from "./articles.js";
 import { getArticles } from "./articles.js";
 
 
+renderArticles();
+
 const form = document.querySelector("form");
 
 form.addEventListener("submit", (e) => {
@@ -12,5 +14,5 @@ form.addEventListener("submit", (e) => {
   alert("Thank you for contributing!");
   form.reset();
   // testing area
-  //renderArticles();
+  renderArticles();
 });
