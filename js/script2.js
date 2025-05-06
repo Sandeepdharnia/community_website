@@ -26,9 +26,11 @@ async function renderData() {
   const articles = blogData.articles;
   console.log(blogData.articles);
   let section = document.querySelector("#articles");
+  let ulTag = document.createElement("ul");
+
   articles.forEach((article) => {
     /** 3a create Tags */
-    let ulTag = document.createElement("ul");
+    
     /*title, author,content, description, url, urltoimage */
     let liTag = document.createElement("li");
     let h2Tag = document.createElement("h2"); // title
@@ -46,7 +48,9 @@ async function renderData() {
     liTag.append(h2Tag, strongTag, h3Tag, pTag, imgTag);
     ulTag.appendChild(liTag);
     console.log(section);
-    section.appendChild(ulTag);
+    
   });
+
+  section.appendChild(ulTag);
 }
 renderData();
